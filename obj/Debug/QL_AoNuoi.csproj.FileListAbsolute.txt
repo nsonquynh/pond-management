@@ -1,0 +1,147 @@
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\QL_AoNuoi.dll.config
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\QL_AoNuoi.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\QL_AoNuoi.pdb
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csc.exe
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csc.rsp
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csi.exe
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\csi.rsp
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\vbc.exe
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Razor.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\obj\Debug\QL_AoNuoi.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\obj\Debug\QL_AoNuoi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\obj\Debug\QL_AoNuoi.dll
+C:\Users\Administrator\Documents\Workspace\QL_AoNuoi\obj\Debug\QL_AoNuoi.pdb
+D:\Thực Tập\QL_AoNuoi\bin\QL_AoNuoi.dll.config
+D:\Thực Tập\QL_AoNuoi\bin\QL_AoNuoi.dll
+D:\Thực Tập\QL_AoNuoi\bin\QL_AoNuoi.pdb
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csc.exe
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csc.exe.config
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csc.rsp
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csi.exe
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csi.exe.config
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\csi.rsp
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.AppContext.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Collections.Immutable.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Console.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Globalization.Calendars.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.IO.Compression.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.IO.FileSystem.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Net.Http.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Net.Sockets.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.ValueTuple.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Xml.XPath.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\vbc.exe
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\vbc.exe.config
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\vbc.rsp
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\VBCSCompiler.exe
+D:\Thực Tập\QL_AoNuoi\bin\roslyn\VBCSCompiler.exe.config
+D:\Thực Tập\QL_AoNuoi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Thực Tập\QL_AoNuoi\bin\Microsoft.Web.Infrastructure.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Helpers.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Mvc.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Razor.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.Deployment.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.Razor.dll
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Razor.xml
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.xml
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.Deployment.xml
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Webpages.Razor.xml
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Helpers.xml
+D:\Thực Tập\QL_AoNuoi\bin\System.Web.Mvc.xml
+D:\Thực Tập\QL_AoNuoi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Thực Tập\QL_AoNuoi\obj\Debug\QL_AoNuoi.csproj.AssemblyReference.cache
+D:\Thực Tập\QL_AoNuoi\obj\Debug\QL_AoNuoi.csproj.CoreCompileInputs.cache
+D:\Thực Tập\QL_AoNuoi\obj\Debug\QL_AoNuoi.dll
+D:\Thực Tập\QL_AoNuoi\obj\Debug\QL_AoNuoi.pdb
+D:\Thực Tập\QL_AoNuoi\bin\EntityFramework.dll
+D:\Thực Tập\QL_AoNuoi\bin\EntityFramework.SqlServer.dll
+D:\Thực Tập\QL_AoNuoi\bin\EntityFramework.xml
+D:\Thực Tập\QL_AoNuoi\bin\EntityFramework.SqlServer.xml
+D:\Thực Tập\QL_AoNuoi\obj\Debug\QL_AoNuoi.csproj.CopyComplete

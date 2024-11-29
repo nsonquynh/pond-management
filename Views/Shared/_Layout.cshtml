@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Fish</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" />
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="header">
+                <span class="text-logo">F&LS</span>
+                <!--Danh mục-->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Danh mục <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        @Html.ActionLink("Vùng Nuôi", "VungNuoi", "DanhMuc")
+                        @Html.ActionLink("Kho", "Kho", "DanhMuc")
+                        @Html.ActionLink("Ngành hàng", "NganhHang", "DanhMuc")
+                        @Html.ActionLink("Ao nuôi", "AoNuoi", "DanhMuc")
+                        @Html.ActionLink("Nhóm hàng", "NhomHang", "DanhMuc")
+                        @Html.ActionLink("Sản phẩm", "SanPham", "DanhMuc")
+                        @Html.ActionLink("Đơn vị tính", "DonViTinh", "DanhMuc")
+                        @Html.ActionLink("Khách hàng", "KhachHang", "DanhMuc")
+                        @Html.ActionLink("Nhà cung cấp", "NhaCungCap", "DanhMuc")
+                        @Html.ActionLink("Loại phiếu nhập", "LoaiPhieuNhap", "DanhMuc")
+                        @Html.ActionLink("Loại phiếu xuất", "LoaiPhieuXuat", "DanhMuc")
+                        @Html.ActionLink("Loại thu chi", "LoaiThuChi", "DanhMuc")
+
+                    </div>
+                </div>
+                <!--Nhập xuất hàng hóa-->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nhập xuất hàng hóa <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        @Html.ActionLink("Nhập hàng", "Index", "NhapXuatHH")                                          
+                    </div>
+                </div>
+                <!--Thu chi -->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle">
+                        Thu chi 
+                    </button>
+                   
+                </div>
+                <!--Quản lí nuôi cá -->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Quản lí nuôi cá <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        @Html.ActionLink("Nhập thả cá", "Index", "Home")
+                        
+                    </div>
+                </div>
+                <!--Báo cáo  -->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Báo cáo 
+                    </button>
+                    
+                </div>
+                <!--Hệ thống -->
+                <div class="dropdown">
+                    <button id="menu-dropdown" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hệ thống 
+                    </button>
+                    
+                </div>
+                <!--Login -->
+                <button class="btn-login"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+
+            </div>
+
+        </header>
+
+
+        <div class="wrapper">
+            <div class="content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/nav.js"></script>
+    <script src="~/Scripts/Selector.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+﻿
+@{
+    ViewBag.Title = "Sản Phẩm";
+}
+
+<div class="title">
+    <h1>Trang Chủ</h1>  <span> - Sản phẩm </span>
+</div>
+
+<div class="items" style="display:block;">
+    <div class="group__item">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+
+            <div class="input-group" style="width:70%">
+                <select class="form-select">
+                    <option>Tất cả ngành hàng</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Tìm kiếm" aria-describedby="basic-addon2" style="padding:5px 10px">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddSanPham">Thêm</button>
+        </div>
+    </div>
+    <div class="group__item">
+        <div class="panel panel-info">
+            <h1 class="panel-heading">Có ... kết quả cho tất cả thuộc tất cả ngành hàng</h1>
+        </div>
+    </div>
+    <div class="group__item" style="display:flex;">
+        <table class="table table-striped">
+            <thead>
+                <tr style="color: #8cadb7;">
+                    <th>Mã </th>
+                    <th>Sản phẩm</th>
+                    <th>Ngành hàng</th>
+                    <th>Nhóm hàng</th>
+                    <th>Đơn vị tính</th>
+                    <th>Thuế</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4</td>
+                    <td>BKC80%</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>10%</td>
+                </tr>
+                
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <nav>
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+@*Modal*@
+
+<div class="modal fade" id="modalAddSanPham" tabindex="-1" role="dialog" aria-labelledby="modalAddSanPham" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tạo mới sản phẩm</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="group__item">
+                    <label>Tên sản phẩm</label>
+                    <input type="text" class="form-control" placeholder="Tên nhóm hàng" aria-describedby="basic-addon2" style="width:100%">
+                </div>
+
+                <div class="group__item">
+                    <label>Chọn ngành hàng</label>
+                    <input list="nganhhang" class="form-control" placeholder="ngành hàng" aria-describedby="basic-addon2" style="width:100%">
+                    <datalist id="nganhhang">
+                        <option value="Thức ăn">
+                        <option value="thuốc">
+                    </datalist>
+                </div>
+
+                <div class="group__item">
+                    <label>Chọn nhóm hàng</label>
+                    <input list="nhomhang" class="form-control" placeholder="nhóm hàng" aria-describedby="basic-addon2" style="width:100%">
+                    <datalist id="nhomhang">
+                        <option value="sát khuẩn">
+                        <option value="thức ăn">
+                    </datalist>
+                </div>
+
+                <div class="group__item">
+                    <label>Chọn đơn vị tính</label>
+                    <input list="donvitinh" class="form-control" placeholder="Đơn vị tính" aria-describedby="basic-addon2" style="width:100%">
+                    <datalist id="donvitinh">
+                        <option value="kg">
+                        <option value="bao">
+                        <option value="cái">
+                        <option value="gói">
+                    </datalist>
+                </div>
+
+                <div class="group__item">
+                    <label>Thuế</label>
+                    <input list="thue" class="form-control" placeholder="Thuế" aria-describedby="basic-addon2" style="width:100%">
+                    <datalist id="thue">
+                        <option value="Thuế 10%">
+                        <option value="Thuế 15%">
+                        <option value="Thuế 20%">
+                        <option value="Thuế 30%">
+                    </datalist>
+                </div>
+                <div class="group__item">
+                    <label for="mota">Mô tả</label>
+                    <textarea class="form-control" rows="5" id="mota" placeholder="Mô tả chi tiết" name="text"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Tạo</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+

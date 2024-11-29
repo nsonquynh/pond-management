@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewBag.Title = "Ngành Hàng";
+}
+
+<div class="title">
+    <h1>Trang Chủ</h1>  <span> - Ngành Hàng </span>
+</div>
+
+<div class="items" style="display:block;">
+    <div class="group__item">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+
+            <div class="input-group" style="width:70%">
+                <select class="form-select">
+                    <option>Tất cả ngành hàng</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Tìm kiếm" aria-describedby="basic-addon2" style="padding:5px 10px">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddNganhHang">Thêm</button>
+        </div>
+    </div>
+    <div class="group__item">
+        <div class="panel panel-info">
+            <h1 class="panel-heading">Có ... kết quả cho tất cả</h1>
+        </div>
+    </div>
+    <div class="group__item" style="display:flex;">
+        <table class="table table-striped">
+            <thead>
+                <tr style="color: #8cadb7;" > 
+                    <th>Mã </th>
+                    <th>Tên ngàng hàng</th>
+                    <th>Ghi chú</th>
+                    <th style="width:150px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4</td>
+                    <td>Vật tư</td>
+                    <td>Vật tư kho</td>
+
+                    <td>
+                        <button type="button" class="btn btn-light"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button type="button" class="btn btn-warning"><i class="fa-solid fa-xmark"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>Đồ dùng</td>
+                    <td>Xẻng</td>
+
+                    <td>
+                        <button type="button" class="btn btn-light"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button type="button" class="btn btn-warning"><i class="fa-solid fa-xmark"></i></button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <nav>
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+@*Modal*@
+
+<div class="modal fade" id="modalAddNganhHang" tabindex="-1" role="dialog" aria-labelledby="modalAddNganhHang" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tạo nhóm ngành hàng</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="group__item">
+                    <label>Tên ngành hàng</label>
+                    <input type="text" class="form-control" placeholder="Tên ngành hàng" aria-describedby="basic-addon2" style="width:100%">
+                </div>
+                <div class="group__item">
+                    <label for="mota">Mô tả</label>
+                    <textarea class="form-control" rows="5" id="mota" placeholder="Mô tả chi tiết" name="text"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Tạo</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>

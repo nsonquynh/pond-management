@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QL_NuoiCaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AoNuoi">
+    <Key>
+      <PropertyRef Name="MaAN" />
+    </Key>
+    <Property Name="MaAN" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenAN" Type="nvarchar" MaxLength="50" />
+    <Property Name="KVNuoi" Type="char" MaxLength="4" />
+    <Property Name="MaKho" Type="char" MaxLength="4" />
+    <Property Name="A" Type="char" MaxLength="4" />
+    <Property Name="B" Type="char" MaxLength="4" />
+    <Property Name="C" Type="char" MaxLength="4" />
+    <Property Name="D" Type="char" MaxLength="4" />
+    <Property Name="DienTich" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DoSau" Type="char" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="ChiTietSP">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="DonVi" Type="nvarchar" MaxLength="50" />
+    <Property Name="GiaDonVi" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="DonViSP">
+    <Key>
+      <PropertyRef Name="MaDV" />
+    </Key>
+    <Property Name="MaDV" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenDonVi" Type="nvarchar" MaxLength="50" />
+    <Property Name="CoSoLe" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKH" />
+    </Key>
+    <Property Name="MaKH" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenKH" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="SDT" Type="int" />
+    <Property Name="MaSoThue" Type="int" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Kho">
+    <Key>
+      <PropertyRef Name="MaKho" />
+    </Key>
+    <Property Name="MaKho" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenKho" Type="nvarchar" MaxLength="50" />
+    <Property Name="Loai" Type="char" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="NganhHang">
+    <Key>
+      <PropertyRef Name="MaNgH" />
+    </Key>
+    <Property Name="MaNgH" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenNgH" Type="nvarchar" MaxLength="50" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="NhaCungCap">
+    <Key>
+      <PropertyRef Name="MaNCC" />
+    </Key>
+    <Property Name="MaNCC" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenNCC" Type="nvarchar" MaxLength="100" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="200" />
+    <Property Name="MaSoThue" Type="int" />
+    <Property Name="SDT" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="NhomHang">
+    <Key>
+      <PropertyRef Name="MaNhH" />
+    </Key>
+    <Property Name="MaNhH" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenNhH" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaNgH" Type="char" MaxLength="4" />
+    <Property Name="GhiChu" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="PhieuNhap">
+    <Key>
+      <PropertyRef Name="MaPN" />
+    </Key>
+    <Property Name="MaPN" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenPN" Type="nvarchar" MaxLength="100" />
+    <Property Name="Duyet" Type="nvarchar" MaxLength="100" />
+    <Property Name="CanPC" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PhieuThuChi">
+    <Key>
+      <PropertyRef Name="MaPTC" />
+    </Key>
+    <Property Name="MaPTC" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenPTC" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="PhieuXuat">
+    <Key>
+      <PropertyRef Name="MaPX" />
+    </Key>
+    <Property Name="MaPX" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenPX" Type="nvarchar" MaxLength="100" />
+    <Property Name="CanPT" Type="nvarchar" MaxLength="50" />
+    <Property Name="LoaiGia" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenSP" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaNgH" Type="char" MaxLength="4" />
+    <Property Name="MaNhH" Type="char" MaxLength="4" />
+    <Property Name="DonViTinh" Type="char" MaxLength="4" />
+    <Property Name="Thue" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="VungNuoi">
+    <Key>
+      <PropertyRef Name="MaVung" />
+    </Key>
+    <Property Name="MaVung" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="TenVung" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__AoNuoi__MaKho__3A81B327">
+    <End Role="Kho" Type="Self.Kho" Multiplicity="0..1" />
+    <End Role="AoNuoi" Type="Self.AoNuoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kho">
+        <PropertyRef Name="MaKho" />
+      </Principal>
+      <Dependent Role="AoNuoi">
+        <PropertyRef Name="MaKho" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietSP__MaSP__45F365D3">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="1" />
+    <End Role="ChiTietSP" Type="Self.ChiTietSP" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="MaSP" />
+      </Principal>
+      <Dependent Role="ChiTietSP">
+        <PropertyRef Name="MaSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__NhomHang__MaNgH__3F466844">
+    <End Role="NganhHang" Type="Self.NganhHang" Multiplicity="0..1" />
+    <End Role="NhomHang" Type="Self.NhomHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NganhHang">
+        <PropertyRef Name="MaNgH" />
+      </Principal>
+      <Dependent Role="NhomHang">
+        <PropertyRef Name="MaNgH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SanPham__MaNgH__4222D4EF">
+    <End Role="NganhHang" Type="Self.NganhHang" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NganhHang">
+        <PropertyRef Name="MaNgH" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaNgH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SanPham__MaNhH__4316F928">
+    <End Role="NhomHang" Type="Self.NhomHang" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhomHang">
+        <PropertyRef Name="MaNhH" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaNhH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QL_NuoiCaModelStoreContainer">
+    <EntitySet Name="AoNuoi" EntityType="Self.AoNuoi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChiTietSP" EntityType="Self.ChiTietSP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DonViSP" EntityType="Self.DonViSP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KhachHang" EntityType="Self.KhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kho" EntityType="Self.Kho" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NganhHang" EntityType="Self.NganhHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhaCungCap" EntityType="Self.NhaCungCap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NhomHang" EntityType="Self.NhomHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuNhap" EntityType="Self.PhieuNhap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuThuChi" EntityType="Self.PhieuThuChi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhieuXuat" EntityType="Self.PhieuXuat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VungNuoi" EntityType="Self.VungNuoi" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__AoNuoi__MaKho__3A81B327" Association="Self.FK__AoNuoi__MaKho__3A81B327">
+      <End Role="Kho" EntitySet="Kho" />
+      <End Role="AoNuoi" EntitySet="AoNuoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietSP__MaSP__45F365D3" Association="Self.FK__ChiTietSP__MaSP__45F365D3">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="ChiTietSP" EntitySet="ChiTietSP" />
+    </AssociationSet>
+    <AssociationSet Name="FK__NhomHang__MaNgH__3F466844" Association="Self.FK__NhomHang__MaNgH__3F466844">
+      <End Role="NganhHang" EntitySet="NganhHang" />
+      <End Role="NhomHang" EntitySet="NhomHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SanPham__MaNgH__4222D4EF" Association="Self.FK__SanPham__MaNgH__4222D4EF">
+      <End Role="NganhHang" EntitySet="NganhHang" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SanPham__MaNhH__4316F928" Association="Self.FK__SanPham__MaNhH__4316F928">
+      <End Role="NhomHang" EntitySet="NhomHang" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
